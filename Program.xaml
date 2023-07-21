@@ -1,0 +1,172 @@
+﻿
+    <Window x:Class="Zahard_Student.Program"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+               
+        xmlns:local="clr-namespace:Zahard_Student"
+        mc:Ignorable="d" Height="450" Width="1080"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" WindowStyle="None" Activated="Window_Activated"  >
+
+
+    
+    <Grid Loaded="Grid_Loaded">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="145" />
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="rowgrid" Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
+
+        <Border Grid.Column="0" Grid.Row="1" Background="#FFAEAEAE" CornerRadius="0 40 0 0">
+            <StackPanel Margin="0,30,0,0">
+                <Button x:Name="Btu_Home" Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="White" Margin="0,0,0,10" Click="Btu_Home_Click">
+                    <WrapPanel Width="120">
+                        <materialDesign:PackIcon Kind="Home" VerticalAlignment="Center" Margin="0 0 20 0"/>
+                        <TextBlock Width="57"><Run Text="Home"/></TextBlock>
+                    </WrapPanel>
+                </Button>
+
+
+                <Button x:Name="Btu_add" Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="White" Margin="0 0 0 10" Click="Btu_add_Click">
+                    <WrapPanel Width="120">
+                        <materialDesign:PackIcon Kind="Add" VerticalAlignment="Center" Margin="0 0 20 0"/>
+                        <TextBlock FontSize="13" Width="82"><Run Text="Add student"/></TextBlock>
+                    </WrapPanel>
+                </Button>
+
+                <Button x:Name="Btu_statics" Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="White" Margin="0 0 0 10" Click="Btu_statics_Click">
+                    <WrapPanel Width="120">
+                        <materialDesign:PackIcon Kind="Graph" VerticalAlignment="Center" Margin="0 0 20 0"/>
+                        <TextBlock Width="68"><Run Text="Statistics"/></TextBlock>
+                    </WrapPanel>
+                </Button>
+
+                <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" materialDesign:ButtonAssist.CornerRadius="6" Width="auto" Height="35" materialDesign:RippleAssist.Feedback="White" Margin="0 0 0 15" Click="Button_Click">
+                    <WrapPanel Width="120">
+                        <materialDesign:PackIcon Kind="File" VerticalAlignment="Center" Margin="0 0 20 0"/>
+                        <TextBlock Width="81"><Run Text="Export File"/></TextBlock>
+                    </WrapPanel>
+                </Button>
+
+            </StackPanel>
+        </Border>
+        <Canvas x:Name="can_home" Grid.Column="1" Grid.Row="1" >
+
+            <TextBlock Width="68" Height="27" Text="Filter By:" FontSize="18" Canvas.Left="10" Canvas.Top="20" />
+            <TextBox x:Name="text_search" Width="131" Height="31"  BorderBrush="{DynamicResource MaterialDesignDivider}" FontSize="15" Canvas.Left="83" Canvas.Top="17" BorderThickness="2" TextChanged="TextBox_TextChanged"/>
+
+            <DataGrid x:Name="datax" Height="358" Canvas.Left="10" Canvas.Top="52" Width="915" IsReadOnly="True"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ColumnWidth="*" SelectionChanged="Datax_SelectionChanged" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <!--Other columns-->
+                    <DataGridTextColumn Header="Student ID" Binding="{Binding student_id}"/>
+                    <DataGridTextColumn Header="First Name" Binding="{Binding first_name}"/>
+                    <DataGridTextColumn Header="Last Name" Binding="{Binding last_name}"/>
+                    <DataGridTextColumn Header="Email" Width="160.0" Binding="{Binding email}"/>
+                    <DataGridTextColumn Header="Test" Binding="{Binding test}"/>
+                    <DataGridTextColumn Header="Exam" Binding="{Binding exam}"/>
+                    <DataGridTextColumn Header="Rate" Binding="{Binding rate}"/>
+
+                    <DataGridTemplateColumn Header="Edit" >
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button  Click="EditButton_Click" Width="30.0" HorizontalAlignment="Left">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/edit (1).png"/>
+                                    </Button.Background>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Delete">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button  Click="DeleteButton_Click" Width="30.0" HorizontalAlignment="Left">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/trash.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Canvas>
+
+
+        <Canvas x:Name="canvas_statics" Background="{DynamicResource MaterialDesignPaper}" Grid.Column="1" Grid.Row="1" Visibility="Hidden">
+            <StackPanel x:Name="stack_staics" Width="Auto" Height="Auto"  Canvas.Left="0" Canvas.Top="0"  >
+            </StackPanel>
+            
+            
+            <Rectangle  Height="161" Canvas.Left="10" Stroke="#FF272727" RadiusX="20" RadiusY="20" Canvas.Top="10" Width="340"/>
+            <TextBlock Canvas.Left="30" TextWrapping="Wrap" Text="Average Test Score:" Canvas.Top="34" Height="24" Width="196" FontSize="22"/>
+            <TextBlock Canvas.Left="30" TextWrapping="Wrap" Text="Average Exam Score:" Canvas.Top="80" Height="24" Width="208" FontSize="22"/>
+            <TextBlock Canvas.Left="30" TextWrapping="Wrap" Text="Average Rate Score:" Canvas.Top="126" Height="24" Width="196" FontSize="22"/>
+            
+            
+            <TextBox x:Name="ATS" FontSize="15" Height="24" Canvas.Left="226" TextWrapping="Wrap" Text="" Canvas.Top="34" Width="119"/>
+            <TextBox x:Name="AES" FontSize="15" Height="24" Canvas.Left="238" TextWrapping="Wrap" Text="" Canvas.Top="80" Width="107"/>
+            <TextBox x:Name="ARS" FontSize="15" Height="24" Canvas.Left="231" TextWrapping="Wrap" Text="" Canvas.Top="126" Width="114"/>
+            
+            
+            
+            <Rectangle  Height="115" Canvas.Left="379" Stroke="#FF272727" RadiusX="20" RadiusY="20" Canvas.Top="10" Width="340"/>
+            <TextBlock Canvas.Left="390" TextWrapping="Wrap" Text="rate more then 10:" Canvas.Top="34" Height="24" Width="196" FontSize="22"/>
+            <TextBlock Canvas.Left="390" TextWrapping="Wrap" Text="rate less then 10:" Canvas.Top="80" Height="24" Width="208" FontSize="22"/>
+            
+            
+            <TextBox x:Name="RMT" FontSize="15" Height="24" Canvas.Left="586" TextWrapping="Wrap" Text="" Canvas.Top="34" Width="119"/>
+            <TextBox x:Name="RLT" FontSize="15" Height="24" Canvas.Left="586" TextWrapping="Wrap" Text="" Canvas.Top="80" Width="119"/>
+
+        </Canvas>
+
+
+
+        <Canvas  Grid.Column="1" Grid.Row="0">
+            <Button x:Name="btu_exit"  Width="30" Height="30" HorizontalAlignment="Right" materialDesign:RippleAssist.Feedback="White" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" BorderBrush="{x:Null}"  Click="Btu_exit_Click" Canvas.Right="0" FlowDirection="RightToLeft">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/exit.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btu_max"  Width="30" Height="30" HorizontalAlignment="Right" materialDesign:RippleAssist.Feedback="White" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" BorderBrush="{x:Null}" Canvas.Right="30" Click="Btu_max_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/maximize.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btu_min"  Width="30" Height="30" HorizontalAlignment="Right" materialDesign:RippleAssist.Feedback="White" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" BorderBrush="{x:Null}" Canvas.Right="60" Click="Btu_min_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/minimize.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btu_theme"  Width="28" Height="28" HorizontalAlignment="Right" materialDesign:RippleAssist.Feedback="White" Foreground="{DynamicResource PrimaryHueLightForegroundBrush}" BorderBrush="{x:Null}" Canvas.Right="90" Click="Btu_theme_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/night-mode.png"/>
+                </Button.Background>
+            </Button>
+
+
+
+        </Canvas>
+
+        <Line Grid.Row="0" Grid.Column="1" X1="0" Y1="30" X2="9950" Y2="30" Stroke="#FFB0B0B0" StrokeThickness="3"/>
+        <Line Grid.Row="0" Grid.Column="0" X1="0" Y1="30" X2="950" Y2="30" Stroke="#FFB0B0B0" StrokeThickness="3"/>
+
+    </Grid>
+</Window>
