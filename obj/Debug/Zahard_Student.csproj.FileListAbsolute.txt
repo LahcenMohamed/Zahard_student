@@ -1,0 +1,74 @@
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.exe.config
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.exe
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.pdb
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\MainWindow.g.cs
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\App.g.cs
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student_MarkupCompile.cache
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student_MarkupCompile.lref
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\MainWindow.baml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.g.resources
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.Properties.Resources.resources
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.GenerateResource.cache
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.CoreCompileInputs.cache
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.exe
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.pdb
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignColors.dll
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignColors.pdb
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student_Content.g.cs
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\App.baml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.CopyComplete
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\ZSDB.mdf
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\ZSDB_log.ldf
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.dll
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.SqlServer.dll
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.xml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.SqlServer.xml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Program.g.cs
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Program.baml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\add_edit.g.cs
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\add_edit.baml
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.exe.manifest
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.application
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.exe.manifest
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.application
+D:\program\WPF\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.AssemblyReference.cache
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\ZSDB.mdf
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\ZSDB_log.ldf
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.exe.config
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.exe.manifest
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.application
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.exe
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\Zahard_Student.pdb
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.dll
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.SqlServer.dll
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignColors.dll
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.xml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\EntityFramework.SqlServer.xml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignColors.pdb
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.AssemblyReference.cache
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\add_edit.g.cs
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\MainWindow.g.cs
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Program.g.cs
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\App.g.cs
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student_Content.g.cs
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student_MarkupCompile.cache
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student_MarkupCompile.lref
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\App.baml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\add_edit.baml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\MainWindow.baml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Program.baml
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.g.resources
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.Properties.Resources.resources
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.GenerateResource.cache
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.CoreCompileInputs.cache
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.exe.manifest
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.application
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.csproj.CopyComplete
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.exe
+D:\program\C#\WPF\My Project\Zahard_Students\Zahard_Student\Zahard_Student\obj\Debug\Zahard_Student.pdb

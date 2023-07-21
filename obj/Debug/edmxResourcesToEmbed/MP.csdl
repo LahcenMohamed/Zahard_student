@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ZSDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="professor">
+    <Key>
+      <PropertyRef Name="professor_name" />
+    </Key>
+    <Property Name="professor_name" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="students">
+    <Key>
+      <PropertyRef Name="student_id" />
+    </Key>
+    <Property Name="student_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="first_name" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="last_name" Type="String" MaxLength="35" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="55" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="groups" Type="Int32" Nullable="false" />
+    <Property Name="test" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="exam" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="rate" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ZSDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="professor" EntityType="Self.professor" />
+    <EntitySet Name="students" EntityType="Self.students" />
+  </EntityContainer>
+</Schema>
